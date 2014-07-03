@@ -55,4 +55,4 @@ app.use(function(err, req, res, next) {
     });
 });
 
-app.listen(8080 || process.env.PORT);
+app.listen(process.env.PORT || 8080);
